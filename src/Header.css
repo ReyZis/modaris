@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header__left {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.header__logo {
+    height: 60px;
+}
+
+.header__right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__options {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.header__option {
+    color: #fff;
+    margin-right: 16px;
+    padding: 8px 0;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header__option:hover {
+    color: #9d8080;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.header__btnWhite,
+.header__btnBlue:hover {
+    color: #0090ff;
+    background-color: #fff;
+}
+
+.header__btnBlue,
+.header__btnWhite:hover {
+    color: #fff;
+    background-color: transparent;
+}
