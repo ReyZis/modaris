@@ -1,0 +1,20 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+    text-align: center;
+    padding-bottom: 12rem;
+}
+
+.register__header {
+    font-size: 44px;
+    color: #0090ff;
+    margin-bottom: 2rem;
+}
+
+.register__content {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}

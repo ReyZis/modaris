@@ -1,0 +1,63 @@
+.success {
+    display: flex;
+    flex-direction: column;
+    background-color: #0090ff;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    position: relative;
+}
+
+.success::before {
+    content: "";
+    background-image: url(./assets/mudarris.net\ Final-22.png);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -3rem;
+    opacity: 0.1;
+}
+
+.success__header {
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+.success__options {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.success__optionContainer {
+    padding: 4rem 0;
+    color: #fff;
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.success__optionContainer::before {
+    content: "";
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 270px;
+    border: 1px dashed #fff;
+    height: 270px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 25px;
+}
+
+.success__optionContainer > p {
+    font-size: 40px;
+    line-height: 1.5;
+}

@@ -45,16 +45,14 @@
     justify-content: space-evenly;
     margin: auto;
 }
+
 .header__option {
     color: #fff;
     margin-right: 16px;
     padding: 8px 0;
     letter-spacing: 1px;
-    text-transform: capitalize;
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
-    font-family: Raleway, sans-serif;
-    font-weight: 400;
     font-size: 18px;
 }
 
@@ -75,4 +73,23 @@
 .header__btnWhite:hover {
     color: #fff;
     background-color: transparent;
+}
+
+@media screen and (max-width: 1010px) {
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .header__right > button {
+        display: none;
+    }
+
+    .header__options {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: auto;
+    }
 }

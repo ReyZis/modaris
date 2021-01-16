@@ -77,3 +77,17 @@
     color: #fff;
     background-color: transparent;
 }
+
+@media screen and (max-width: 1010px) {
+    .main__left > h1 {
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 55px;
+        font-family: Raleway, sans-serif;
+        font-weight: 400;
+    }
+
+    .main__btnWhite {
+        margin-top: 30px;
+    }
+}

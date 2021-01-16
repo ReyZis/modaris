@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33%;
+}
+
+.list__header {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
