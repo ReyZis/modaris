@@ -23,7 +23,7 @@ function App() {
             <Footer />
             <div className="credit">
                 <p>
-                    All rights reserved to the <a href="#">Mudarris.Net.</a>
+                    All rights reserved to the <span>Mudarris.Net.</span>
                 </p>
             </div>
         </div>

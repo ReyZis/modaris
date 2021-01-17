@@ -8,11 +8,12 @@
     margin: 0 auto;
 }
 
-.credit a {
+.credit span {
     color: #0090ff;
     text-decoration: none;
 }
 
-.credit a:hover {
+.credit span:hover {
     text-decoration: underline;
+    cursor: pointer;
 }

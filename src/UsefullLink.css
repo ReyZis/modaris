@@ -16,4 +16,5 @@
 
 .link__text:hover {
     text-decoration: underline;
+    cursor: pointer;
 }

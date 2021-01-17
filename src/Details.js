@@ -7,7 +7,7 @@ import UsefullLink from "./UsefullLink";
 function Details() {
     return (
         <div className="details">
-            <img src={footerImg} alt="footer brand image" />
+            <img src={footerImg} alt="footer brand" />
             <p className="details__content">
                 Lorem Ipsum Dolor Set Amit Elite. Doyce Erat Nick. Ott Loportes,
                 Magna Nick Roncos, Nick Quam Mattis Ipsum, Phil Erat Villette at
